@@ -1,5 +1,5 @@
 import { useState, useMemo, useEffect, useCallback } from "react";
-import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
+import { createClient } from "@supabase/supabase-js";
 
 const SUPABASE_URL = "https://rmsqddfclqxtymmluzn.supabase.co";
 const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJtc3FwZGRmY2xxdHltbWx1em4iLCJyb2xlIjoiYW5vbiIsImlhdCI6MTc0OTc2MzE3NiwiZXhwIjoyMDY1MzM5MTc2fQ.sQZ39At5pEGM2oWzDqwM9T0mUtlOkIKAFIKSZkGbU_8";
